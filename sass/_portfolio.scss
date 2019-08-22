@@ -1,0 +1,16 @@
+.mod-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 798px;
+    background-size: cover;
+}
+.port-container{
+    max-width: 1400px;
+}
+.content-port{
+    font-size: 30px;
+    font-weight: bold;
+    color:$BM;
+    margin:0;
+}

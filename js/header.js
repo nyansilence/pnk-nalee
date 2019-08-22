@@ -22,9 +22,14 @@ $(document).ready(function(){
     })
 })
 
+
 $(window).scroll(function() {
     $window = $(this)
-    if($window.scrollTop() > 1) {
+    $mod_banner = $('.mod-banner')
+    var x = $mod_banner.offset();
+    // alert("Top: " + x.top ); 
+    // alert("Height of div: " + $mod_banner.height());
+    if($window.scrollTop() > ($mod_banner.height()+x.top)) {
         $mod_header.addClass('is-scroll')
     } else {
         $mod_header.removeClass('is-scroll')

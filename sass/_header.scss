@@ -1,6 +1,8 @@
 .mod-header {
+    background-color: $B4;
+    
     padding: 5px 0;
-    position: fixed;
+    // position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -8,11 +10,12 @@
     z-index: 999;
     &.is-scroll,
     &.menu-open {
-        background-color: $white;
+        background-color: $B4;
     }
 
     &.is-scroll {
-        box-shadow: 0px 13px 49px -20px rgba($primary_color, .75);
+        box-shadow: 0px 13px 49px -20px rgba($B4, .75);
+        position: fixed;
         .brand {
             img {
                 max-width: 40px;
@@ -89,7 +92,7 @@
         font-size: 16px;
         position: relative;
         text-decoration: none;
-        color: inherit;
+        color: $BM;
     }
 }
 
