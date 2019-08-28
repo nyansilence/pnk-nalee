@@ -18,7 +18,7 @@
         position: fixed;
         .brand {
             img {
-                max-width: 40px;
+                max-width:80px;
             }
         }
     }
@@ -28,7 +28,7 @@
     display: inline-block;
     img {
         transition: all .2s ease-in-out;
-        max-width: 50px;
+        max-width: 100px;
     }
 }
 
@@ -135,7 +135,18 @@
             padding: 0;
         }
     }
-
+    // &.is-scroll{
+    //     .brand{
+    //         img{
+    //             max-width:100px;
+    //         }
+    //     }
+    // }
+    .brand{
+        img{
+            max-width: 120px;
+        }
+    }
     .menu {
         padding: 10px 0;
         a {
