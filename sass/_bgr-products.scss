@@ -1,0 +1,10 @@
+.mod-bgrproducts{
+    min-height: 300px;
+    background-size: cover;
+}
+@media only screen and (min-width:992px){
+    .mod-bgrproducts{
+        min-height: 798px;
+        background-size: cover;
+    }
+}
