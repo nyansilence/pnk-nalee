@@ -38,7 +38,7 @@ function watch() {
     gulp.watch('./js/**/*.js').on('change', browserSync.reload);
     gulp.watch('./fonts/*').on('change', browserSync.reload);
     gulp.watch('./html/**/*.ejs', gulp.series(['ejsBuild']));
-    gulp.watch('./img/**/*', gulp.series(['image']));
+    // gulp.watch('./img/**/*', gulp.series(['image']));
     gulp.watch('./js/**/*.js', gulp.series(['script']));
     gulp.watch('./fonts/*', gulp.series(['fonts']));
 }
