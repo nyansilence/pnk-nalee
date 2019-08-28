@@ -1,9 +1,9 @@
-<section class="mod-news">
-    <div class="container">
+<section class="module mod-news">
+    <div class="container news-container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 order-12 order-lg-1">
                 <div class="news-list">
-                    <% for (var i = 1; i < 5; i++) { %>
+                    <% for (var i = 1; i < 4; i++) { %>
                     <div class="news-item">
                         <div class="news-item_img" style="background-image: url(./img/new<%= i %>.png);">
                         </div>
@@ -11,7 +11,8 @@
                             tin tức <%= i %>
                         </p>
                         <p class="news-item_content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ducimus architecto dolore cupiditate eveniet nesciunt temporibus vel vitae maiores odit?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ducimus architecto dolore
+                            cupiditate eveniet nesciunt temporibus vel vitae maiores odit?
                         </p>
                         <a href="" class="btn btn-bg btn-orange news-item_detail">
                             xem thêm
@@ -19,14 +20,47 @@
                     </div>
                     <% } %>
                 </div>
+                <div class="news-pagination">
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 order-1 order-lg-12">
                 <div class="news-sidebar">
                     <div class="news-search">
                         <p class="news-sidebar_title">
                             Tìm Kiếm
                         </p>
                         <input type="text" class="news-search_input">
+                    </div>
+                    <div class="news-category">
+                        <p class="news-sidebar_title">
+                            MỤC LỤC 1
+                        </p>
+                        <ul>
+                            <% for (var i = 1; i < 4; i++) { %>
+                            <li><a href="">sản phẩm <%= i %></a></li>
+                            <% } %>
+                        </ul>
+                    </div>
+                    <div class="news-new">
+                        <p class="news-sidebar_title">
+                            Tin tức mới
+                        </p>
+                        <% for (var i = 1; i < 4; i++) { %>
+                        <div class="news-new-item">
+                            <div class="news-new-item_img" style="background-image: url(./img/new<%= i %>.png);">
+
+                            </div>
+                            <p class="news-new-item_title">
+                                Tin tức 1
+                            </p>
+                            <a href="" class="link"></a>
+                        </div>
+                        <% } %>
                     </div>
                 </div>
             </div>
