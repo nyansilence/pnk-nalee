@@ -37,13 +37,18 @@
     background-color: $F;
     box-shadow:0 3px 6px rgba($B, .16);
     max-width: 100%;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 350px;
     margin:0 0 30px 0;
-    padding:0;
+    padding:20px 0 0 0;
+    text-align: center;
+    img{
+        margin-bottom:20px;
+    }
+    p{
+        font-size: 19px;
+    }
 }
+
 @media only screen and (min-width:600px){
     .sp-nalee div {
         display: flex;
@@ -60,4 +65,10 @@
         width:10px;
         
     }
+}
+//mod-productnew
+.mon{
+    color: $C8;
+    font-size: 17px;
+    font-weight: bold;
 }
