@@ -1,0 +1,11 @@
+.mod-ggmap{
+    width: 100%;
+    min-height: 550px;
+    background-size: cover;
+    position: relative;
+    iframe {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

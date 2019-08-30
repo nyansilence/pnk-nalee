@@ -32,6 +32,10 @@
 }
 .box-sp{
     margin:0;
+    color: $grey;
+    a{
+        text-decoration: none;
+    }
 }
 .backgr-sp{
     background-color: $F;
@@ -46,6 +50,9 @@
     }
     p{
         font-size: 19px;
+    }
+    a{
+        text-decoration: none;
     }
 }
 

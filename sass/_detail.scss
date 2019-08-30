@@ -1,0 +1,60 @@
+.main-detail{
+    margin:80px 0 0 0;
+}
+.img-sp{
+    background-color: $F;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        max-width: 100%;
+    }
+}
+.content-detail{
+    color: $BM;
+    h6{
+
+        font-weight: bold;
+        font-size: 26px;
+    }
+}
+
+.text-detail{
+    border-bottom: 1px solid $BM;
+    border-top: 1px solid $BM;
+    margin:0 0 20px 0;
+    padding: 20px 10px;
+}
+.detail-small{
+    margin:30px 0 0 0;
+    .sma{
+        padding:10px;
+    }
+}
+.soluong{
+    border:1px solid $BM;
+    padding:5px 20px;
+    margin:0 10px 0 0;
+    display: inline-block;
+    max-width: 70px;
+}
+.img-spdetail{
+    background-color: $F;
+    box-shadow:0 3px 6px rgba($B, .16);
+    max-width: 100%;
+    min-height: 120px;
+    margin:0 5px 0 5px 0;
+    padding:20px 0 0 0;
+    text-align: center;
+}
+.select{
+    text-align: center;
+}
+@media only screen and (min-width:992px) {
+    .select{
+        display: flex;
+        justify-content: flex-start;
+        margin:0 
+    }
+}

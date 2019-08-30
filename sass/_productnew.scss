@@ -23,24 +23,32 @@
     margin:20px 0 0 0;
 }
 .cate-product{
+    color: $grey;
     order: -1;
     text-align: center;
+    a{
+        text-decoration: none;
+    }
     h6{
         font-size: 23px;
         font-weight: bold;
         margin:10px 0 30px 0;
     }
-    div{
-        margin:0 0 20px 0;
-        &:last-child{
-            margin:0 0 100px 0;
-        }
+    ul{
+        list-style: none;
+        li{
+            margin:0 0 20px 0;
+            &:last-child{
+                margin:0 0 80px 0;
+            }
+        }   
     }
+    
 }
 @media only screen and (min-width:992px){
     
     .cate-product{
-        color: $BM;
+        
         order:1;
         h6{
             font-size: 23px;
