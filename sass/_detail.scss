@@ -1,3 +1,6 @@
+.mod-detail{
+    margin: 0 0 50px 0;
+}
 .main-detail{
     margin:80px 0 0 0;
 }
@@ -42,7 +45,7 @@
 .img-spdetail{
     background-color: $F;
     box-shadow:0 3px 6px rgba($B, .16);
-    max-width: 100%;
+    max-width: 100px;
     min-height: 120px;
     margin:0 5px 0 5px 0;
     padding:20px 0 0 0;
