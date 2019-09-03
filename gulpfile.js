@@ -15,10 +15,10 @@ function ejsBuild() {
     return gulp.src('html/*.ejs')
     .pipe(ejs({}))
     .pipe(rename({ extname: '.html' }))
-    .pipe(htmlmin({
-        collapseWhitespace: true,
-        removeComments: true
-      }))
+    // .pipe(htmlmin({
+    //     collapseWhitespace: true,
+    //     removeComments: true
+    //   }))
     .pipe(gulp.dest('dist/'))
     .pipe(browserSync.reload({
         stream: true

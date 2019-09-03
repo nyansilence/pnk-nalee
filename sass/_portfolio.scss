@@ -14,3 +14,10 @@
     color:$BM;
     margin:0;
 }
+.portfolio_img {
+    border-radius: 100%;
+    border: 1px solid $primary_color;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center center;
+}
