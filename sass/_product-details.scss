@@ -1,5 +1,4 @@
 .mod-product-detail{
-    min-height: 1110px;
     padding-bottom:50px;
     background-size: cover;
 }
@@ -27,6 +26,10 @@
     h6{
         font-size: 20px;
         font-weight: bold;
+        &.active,
+        &:hover {
+            color: #8DC63F;
+        }
     }
 
 }
