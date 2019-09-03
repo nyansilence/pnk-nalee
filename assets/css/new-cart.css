@@ -1,0 +1,370 @@
+/*
+I wanted to go with a mobile first approach, but it actually lead to more verbose CSS in this case, so I've gone web first. Can't always force things...
+
+Side note: I know that this style of nesting in SASS doesn't result in the most performance efficient CSS code... but on the OCD/organizational side, I like it. So for CodePen purposes, CSS selector performance be damned.
+*/
+/* Global settings */
+/* Global "table" column settings */
+.shopcart{margin-bottom:20px}
+.shopcart .product-image {
+  float: left;
+  width: 15%;
+}
+
+.shopcart .product-details {
+  float: left;
+  width: 30%;
+  padding-left: 10px;
+}
+
+.shopcart .product-price {
+  float: left;
+  width: 18%;
+}
+
+.shopcart .product-quantity {
+  float: left;
+  width: 10%;
+}
+
+.shopcart .product-removal {
+  float: left;
+  width: 6%;
+  white-space:nowrap;
+}
+.shopcart .product-line-price.full{
+    width: 21%;
+}
+.shopcart .product-line-price {
+  float: left;
+  width: 13%;
+  text-align: right;
+}
+
+/* This is used as the traditional .clearfix class */
+..shopcart group:before,.shopcart  .shopping-cart:before,.shopcart  .column-labels:before,.shopcart  .product:before,.shopcart  .totals-item:before,
+.shopcart .group:after,
+.shopcart .shopping-cart:after,
+.shopcart .column-labels:after,
+.shopcart .product:after,
+.shopcart .totals-item:after {
+  content: '';
+  display: table;
+}
+
+.shopcart .group:after,.shopcart  .shopping-cart:after,.shopcart  .column-labels:after,.shopcart  .product:after,.shopcart  .totals-item:after {
+  clear: both;
+}
+
+.shopcart .group,.shopcart  .shopping-cart,.shopcart .column-labels,.shopcart .product,.shopcart .totals-item {
+  zoom: 1;
+}
+
+/* Apply clearfix in a few places */
+/* Apply dollar signs */
+.shopcart .product .product-price:before, .shopcart .product .product-line-price:before, .shopcart .totals-value:before {
+  /* content: '$'; */
+}
+
+/* Body/Header stuff */
+
+.shopcart .shopping-cart {
+  margin-top: -45px;
+}
+.shopcart .product.update{
+    cursor: no-drop;
+    opacity:0.7;
+}
+/* Column headers */
+.shopcart .column-labels label {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  /* border-bottom: 1px solid #eee; */
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.shopcart .column-labels{
+    background: whitesmoke;
+    padding: 10px;
+}
+.shopcart .column-labels .product-image, .shopcart .column-labels .product-details, .shopcart .column-labels .product-removal {
+  text-indent: -9999px;
+}
+
+/* Product entries */
+.shopcart .product {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+.shopcart .product .product-image {
+  text-align: center;
+}
+.shopcart .product .product-image img {
+  width: 100%;
+}
+.shopcart .product .product-details .product-title {
+  margin-right: 20px;
+  font-size: 16px;
+}
+.shopcart .product .product-details .product-description {
+  margin: 5px 20px 5px 0;
+  line-height: 1.4em;
+}
+.shopcart .product .product-quantity input {
+  width: 40px;
+}
+.shopcart .product .product-quantity .is_update {
+border: 1px solid #ccc;background: white;padding: 2px 8px;display: none;}
+.shopcart .product .remove-product {
+  border: 0;
+  padding: 5px 13px;
+  background-color: #c66;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.shopcart .product .remove-product:hover {
+  background-color: #a44;
+}
+
+/* Totals section */
+.shopcart .totals .totals-item {
+  float: right;
+  clear: both;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.shopcart .totals .totals-item label {
+  float: left;
+  clear: both;
+  width: 79%;
+  text-align: right;
+  font-weight: 400;
+  font-size: 17px;
+}
+.shopcart .totals .totals-item .totals-value {
+  float: right;
+  width: 21%;
+  text-align: right;
+  font-size: 17px;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 3px;
+}
+.shopcart .totals .totals-item-total {
+  /* font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium"; */
+}
+.shopcart .checkout.green{background: #FBB433;}
+.shopcart .checkout.green:hover{
+    background: #E49D1B;
+}
+.shopcart .checkout {
+  float: right;
+  border: 0;
+  margin-top: 20px;
+  padding: 7px 20px;
+  background-color: #6b6;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-left: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.7s ease;
+}
+
+.shopcart .checkout:hover {
+  background-color: #494;
+}
+.shopcart .payment{
+    margin-bottom: 20px;
+}
+.shopcart .payment .desc{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 5px;
+}
+.shopcart textarea{
+    height: 110px;
+}
+table#tt td
+	{
+		height:30px;
+	}
+	table#tt td input.t
+	{
+		width:300px;
+		height:20px;
+		margin:3px 0px 5px 0px;
+		border:1px solid #DDD;
+	}
+	table#tt span
+	{
+		color:red;
+
+	}
+.shopcart .cus-info{}
+.shopcart .cus-info .title{
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.shop .button, .shop .xbtn {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 9px;
+    font-weight: 500;
+    margin: 4px;
+    font-size: 13px;
+    text-transform: capitalize;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Make adjustments for tablet */
+@media screen and (max-width: 650px) {
+	  .shopcart .product-line-price.full {
+		  width:30%;
+	  }
+	  .shopcart .totals .totals-item label{width:auto}
+	  .shopcart .totals .totals-item .totals-value{float:none;width:auto}
+	  .shopcart .footer-cart{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    overflow: hidden;
+    width: 100%;
+}
+	  .shopcart .footer-cart button{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: auto;
+    margin: 0;
+    margin: 2px;
+}
+	.shopcart .footer-cart button i{
+    position: relative;
+    top: 2px;
+}
+.shopcart   .shopping-cart {
+    margin: 0;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+  }
+
+ .shopcart  .column-labels {
+    display: none;
+  }
+
+ .shopcart  .product-image {
+    float: left;
+    width: auto;
+  }
+ .shopcart  .product-image img {
+    margin: 0 0 10px 10px;
+    margin-left: 0;
+    max-width: 100px;
+  }
+
+ .shopcart  .product-details {
+    float: left;
+    margin-bottom: 10px;
+    width: auto;
+    padding-left: 10px;
+  }
+
+ .shopcart  .product-price {
+    clear: both;
+    width: 110px;
+    margin-top: 4px;
+  }
+
+ .shopcart  .product-quantity {
+    width: 100px;
+  }
+ .shopcart  .product-quantity input {
+    margin-left: 10px;
+  }
+
+ .shopcart  .product-quantity:before {
+    content: 'x';
+  }
+
+ .shopcart  .product-removal {
+    width: auto;
+  }
+
+  .shopcart .product-line-price {
+    float: right;
+    width: 130px;
+    margin-top: 4px;
+  }
+}
+/* Make more adjustments for phone */
+@media screen and (max-width: 350px) {
+	.shopcart .product-line-price.full{width:100%}
+	.shopcart .product-line-price.full:before{content:"Total: "}
+   
+ 
+
+  .shopcart .product-line-price {
+    float: right;
+    clear: left;
+    width: auto;
+    margin-top: 10px;
+  }
+
+ .shopcart  .product .product-line-price:before {
+    /* content: 'Item Total: $'; */
+  }
+
+  .shopcart .totals .totals-item label {
+    width: 60%;
+  }
+ .shopcart  .totals .totals-item .totals-value {
+    width: 40%;
+  }
+}

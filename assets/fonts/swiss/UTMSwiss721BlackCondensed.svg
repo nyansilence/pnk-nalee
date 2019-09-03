@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="UTMSwiss721BlackCondensed_files/intl.css" type="text/css"?>
+<parsererror xmlns="http://www.mozilla.org/newlayout/xml/parsererror.xml">Lỗi Phân tích XML: không đúng dạng
+Địa chỉ: http://fonts.matbaomedia.com/fonts-library/utm_swissblack/UTMSwiss721BlackCondensed.svg
+Dòng số 434, Cột 24:<sourcetext>    &lt;glyph glyph-name="￿" unicode="&amp;#xca;" horiz-adv-x="1061" 
+-----------------------^</sourcetext></parsererror>

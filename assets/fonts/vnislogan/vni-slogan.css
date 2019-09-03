@@ -1,0 +1,607 @@
+@font-face {
+	font-family: "Vni-slogan";
+	src: url("vni-slogan.eot");
+	src: url("vni-slogan.eot#iefix") format("embedded-opentype"),
+	url("vni-slogan.woff") format("woff"),
+	url("vni-slogan.ttf") format("truetype"),
+	url("vni-slogan.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="vni-slogan-"]:before, [class*=" vni-slogan-"]:before,
+[class^="vni-slogan-"]:after, [class*=" vni-slogan-"]:after {   
+	font-family: Vni-slogan;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.vni-slogan-exclam:before {
+	content: "\21";
+}
+.vni-slogan-quotedbl:before {
+	content: "\22";
+}
+.vni-slogan-numbersign:before {
+	content: "\23";
+}
+.vni-slogan-dollar:before {
+	content: "\24";
+}
+.vni-slogan-percent:before {
+	content: "\25";
+}
+.vni-slogan-ampersand:before {
+	content: "\26";
+}
+.vni-slogan-quotesingle:before {
+	content: "\27";
+}
+.vni-slogan-parenleft:before {
+	content: "\28";
+}
+.vni-slogan-parenright:before {
+	content: "\29";
+}
+.vni-slogan-asterisk:before {
+	content: "\2a";
+}
+.vni-slogan-plus:before {
+	content: "\2b";
+}
+.vni-slogan-comma:before {
+	content: "\2c";
+}
+.vni-slogan-hyphen:before {
+	content: "\2d";
+}
+.vni-slogan-period:before {
+	content: "\2e";
+}
+.vni-slogan-slash:before {
+	content: "\2f";
+}
+.vni-slogan-zero:before {
+	content: "\30";
+}
+.vni-slogan-one:before {
+	content: "\31";
+}
+.vni-slogan-two:before {
+	content: "\32";
+}
+.vni-slogan-three:before {
+	content: "\33";
+}
+.vni-slogan-four:before {
+	content: "\34";
+}
+.vni-slogan-five:before {
+	content: "\35";
+}
+.vni-slogan-six:before {
+	content: "\36";
+}
+.vni-slogan-seven:before {
+	content: "\37";
+}
+.vni-slogan-eight:before {
+	content: "\38";
+}
+.vni-slogan-nine:before {
+	content: "\39";
+}
+.vni-slogan-colon:before {
+	content: "\3a";
+}
+.vni-slogan-semicolon:before {
+	content: "\3b";
+}
+.vni-slogan-less:before {
+	content: "\3c";
+}
+.vni-slogan-equal:before {
+	content: "\3d";
+}
+.vni-slogan-greater:before {
+	content: "\3e";
+}
+.vni-slogan-question:before {
+	content: "\3f";
+}
+.vni-slogan-at:before {
+	content: "\40";
+}
+.vni-slogan-A:before {
+	content: "\41";
+}
+.vni-slogan-B:before {
+	content: "\42";
+}
+.vni-slogan-C:before {
+	content: "\43";
+}
+.vni-slogan-D:before {
+	content: "\44";
+}
+.vni-slogan-E:before {
+	content: "\45";
+}
+.vni-slogan-F:before {
+	content: "\46";
+}
+.vni-slogan-G:before {
+	content: "\47";
+}
+.vni-slogan-H:before {
+	content: "\48";
+}
+.vni-slogan-I:before {
+	content: "\49";
+}
+.vni-slogan-J:before {
+	content: "\4a";
+}
+.vni-slogan-K:before {
+	content: "\4b";
+}
+.vni-slogan-L:before {
+	content: "\4c";
+}
+.vni-slogan-M:before {
+	content: "\4d";
+}
+.vni-slogan-N:before {
+	content: "\4e";
+}
+.vni-slogan-O:before {
+	content: "\4f";
+}
+.vni-slogan-P:before {
+	content: "\50";
+}
+.vni-slogan-Q:before {
+	content: "\51";
+}
+.vni-slogan-R:before {
+	content: "\52";
+}
+.vni-slogan-S:before {
+	content: "\53";
+}
+.vni-slogan-T:before {
+	content: "\54";
+}
+.vni-slogan-U:before {
+	content: "\55";
+}
+.vni-slogan-V:before {
+	content: "\56";
+}
+.vni-slogan-W:before {
+	content: "\57";
+}
+.vni-slogan-X:before {
+	content: "\58";
+}
+.vni-slogan-Y:before {
+	content: "\59";
+}
+.vni-slogan-Z:before {
+	content: "\5a";
+}
+.vni-slogan-bracketleft:before {
+	content: "\5b";
+}
+.vni-slogan-backslash:before {
+	content: "\5c";
+}
+.vni-slogan-bracketright:before {
+	content: "\5d";
+}
+.vni-slogan-asciicircum:before {
+	content: "\5e";
+}
+.vni-slogan-underscore:before {
+	content: "\5f";
+}
+.vni-slogan-grave:before {
+	content: "\60";
+}
+.vni-slogan-a:before {
+	content: "\61";
+}
+.vni-slogan-b:before {
+	content: "\62";
+}
+.vni-slogan-c:before {
+	content: "\63";
+}
+.vni-slogan-d:before {
+	content: "\64";
+}
+.vni-slogan-e:before {
+	content: "\65";
+}
+.vni-slogan-f:before {
+	content: "\66";
+}
+.vni-slogan-g:before {
+	content: "\67";
+}
+.vni-slogan-h:before {
+	content: "\68";
+}
+.vni-slogan-i:before {
+	content: "\69";
+}
+.vni-slogan-j:before {
+	content: "\6a";
+}
+.vni-slogan-k:before {
+	content: "\6b";
+}
+.vni-slogan-l:before {
+	content: "\6c";
+}
+.vni-slogan-m:before {
+	content: "\6d";
+}
+.vni-slogan-n:before {
+	content: "\6e";
+}
+.vni-slogan-o:before {
+	content: "\6f";
+}
+.vni-slogan-p:before {
+	content: "\70";
+}
+.vni-slogan-q:before {
+	content: "\71";
+}
+.vni-slogan-r:before {
+	content: "\72";
+}
+.vni-slogan-s:before {
+	content: "\73";
+}
+.vni-slogan-t:before {
+	content: "\74";
+}
+.vni-slogan-u:before {
+	content: "\75";
+}
+.vni-slogan-v:before {
+	content: "\76";
+}
+.vni-slogan-w:before {
+	content: "\77";
+}
+.vni-slogan-x:before {
+	content: "\78";
+}
+.vni-slogan-y:before {
+	content: "\79";
+}
+.vni-slogan-z:before {
+	content: "\7a";
+}
+.vni-slogan-braceleft:before {
+	content: "\7b";
+}
+.vni-slogan-bar:before {
+	content: "\7c";
+}
+.vni-slogan-braceright:before {
+	content: "\7d";
+}
+.vni-slogan-asciitilde:before {
+	content: "\7e";
+}
+.vni-slogan-guilsinglleft:before {
+	content: "\2039";
+}
+.vni-slogan-OE:before {
+	content: "\152";
+}
+.vni-slogan-quoteleft:before {
+	content: "\2018";
+}
+.vni-slogan-quoteright:before {
+	content: "\2019";
+}
+.vni-slogan-quotedblleft:before {
+	content: "\201c";
+}
+.vni-slogan-quotedblright:before {
+	content: "\201d";
+}
+.vni-slogan-endash:before {
+	content: "\2013";
+}
+.vni-slogan-emdash:before {
+	content: "\2014";
+}
+.vni-slogan-guilsinglright:before {
+	content: "\203a";
+}
+.vni-slogan-oe:before {
+	content: "\153";
+}
+.vni-slogan-Ydieresis:before {
+	content: "\178";
+}
+.vni-slogan-exclamdown:before {
+	content: "\a1";
+}
+.vni-slogan-cent:before {
+	content: "\a2";
+}
+.vni-slogan-sterling:before {
+	content: "\a3";
+}
+.vni-slogan-currency:before {
+	content: "\a4";
+}
+.vni-slogan-yen:before {
+	content: "\a5";
+}
+.vni-slogan-brokenbar:before {
+	content: "\a6";
+}
+.vni-slogan-section:before {
+	content: "\a7";
+}
+.vni-slogan-dieresis:before {
+	content: "\a8";
+}
+.vni-slogan-copyright:before {
+	content: "\a9";
+}
+.vni-slogan-ordfeminine:before {
+	content: "\aa";
+}
+.vni-slogan-guillemotleft:before {
+	content: "\ab";
+}
+.vni-slogan-minus:before {
+	content: "\ad";
+}
+.vni-slogan-registered:before {
+	content: "\ae";
+}
+.vni-slogan-degree:before {
+	content: "\b0";
+}
+.vni-slogan-plusminus:before {
+	content: "\b1";
+}
+.vni-slogan-twosuperior:before {
+	content: "\b2";
+}
+.vni-slogan-threesuperior:before {
+	content: "\b3";
+}
+.vni-slogan-acute:before {
+	content: "\b4";
+}
+.vni-slogan-mu:before {
+	content: "\b5";
+}
+.vni-slogan-paragraph:before {
+	content: "\b6";
+}
+.vni-slogan-periodcentered:before {
+	content: "\b7";
+}
+.vni-slogan-periodcentered:before {
+	content: "\2219";
+}
+.vni-slogan-cedilla:before {
+	content: "\b8";
+}
+.vni-slogan-onesuperior:before {
+	content: "\b9";
+}
+.vni-slogan-ordmasculine:before {
+	content: "\ba";
+}
+.vni-slogan-guillemotright:before {
+	content: "\bb";
+}
+.vni-slogan-onequarter:before {
+	content: "\bc";
+}
+.vni-slogan-onehalf:before {
+	content: "\bd";
+}
+.vni-slogan-threequarters:before {
+	content: "\be";
+}
+.vni-slogan-questiondown:before {
+	content: "\bf";
+}
+.vni-slogan-Agrave:before {
+	content: "\c0";
+}
+.vni-slogan-Aacute:before {
+	content: "\c1";
+}
+.vni-slogan-Acircumflex:before {
+	content: "\c2";
+}
+.vni-slogan-Atilde:before {
+	content: "\c3";
+}
+.vni-slogan-Adieresis:before {
+	content: "\c4";
+}
+.vni-slogan-Aring:before {
+	content: "\c5";
+}
+.vni-slogan-AE:before {
+	content: "\c6";
+}
+.vni-slogan-Ccedilla:before {
+	content: "\c7";
+}
+.vni-slogan-Egrave:before {
+	content: "\c8";
+}
+.vni-slogan-Eacute:before {
+	content: "\c9";
+}
+.vni-slogan-Ecircumflex:before {
+	content: "\ca";
+}
+.vni-slogan-Edieresis:before {
+	content: "\cb";
+}
+.vni-slogan-Igrave:before {
+	content: "\cc";
+}
+.vni-slogan-Iacute:before {
+	content: "\cd";
+}
+.vni-slogan-Icircumflex:before {
+	content: "\ce";
+}
+.vni-slogan-Idieresis:before {
+	content: "\cf";
+}
+.vni-slogan-Ntilde:before {
+	content: "\d1";
+}
+.vni-slogan-Ograve:before {
+	content: "\d2";
+}
+.vni-slogan-Oacute:before {
+	content: "\d3";
+}
+.vni-slogan-Ocircumflex:before {
+	content: "\d4";
+}
+.vni-slogan-Otilde:before {
+	content: "\d5";
+}
+.vni-slogan-Odieresis:before {
+	content: "\d6";
+}
+.vni-slogan-multiply:before {
+	content: "\d7";
+}
+.vni-slogan-Oslash:before {
+	content: "\d8";
+}
+.vni-slogan-Ugrave:before {
+	content: "\d9";
+}
+.vni-slogan-Uacute:before {
+	content: "\da";
+}
+.vni-slogan-Ucircumflex:before {
+	content: "\db";
+}
+.vni-slogan-Udieresis:before {
+	content: "\dc";
+}
+.vni-slogan-Yacute:before {
+	content: "\dd";
+}
+.vni-slogan-Thorn:before {
+	content: "\de";
+}
+.vni-slogan-germandbls:before {
+	content: "\df";
+}
+.vni-slogan-agrave:before {
+	content: "\e0";
+}
+.vni-slogan-aacute:before {
+	content: "\e1";
+}
+.vni-slogan-acircumflex:before {
+	content: "\e2";
+}
+.vni-slogan-atilde:before {
+	content: "\e3";
+}
+.vni-slogan-adieresis:before {
+	content: "\e4";
+}
+.vni-slogan-aring:before {
+	content: "\e5";
+}
+.vni-slogan-ae:before {
+	content: "\e6";
+}
+.vni-slogan-ccedilla:before {
+	content: "\e7";
+}
+.vni-slogan-egrave:before {
+	content: "\e8";
+}
+.vni-slogan-eacute:before {
+	content: "\e9";
+}
+.vni-slogan-ecircumflex:before {
+	content: "\ea";
+}
+.vni-slogan-edieresis:before {
+	content: "\eb";
+}
+.vni-slogan-igrave:before {
+	content: "\ec";
+}
+.vni-slogan-iacute:before {
+	content: "\ed";
+}
+.vni-slogan-icircumflex:before {
+	content: "\ee";
+}
+.vni-slogan-idieresis:before {
+	content: "\ef";
+}
+.vni-slogan-ntilde:before {
+	content: "\f1";
+}
+.vni-slogan-ograve:before {
+	content: "\f2";
+}
+.vni-slogan-oacute:before {
+	content: "\f3";
+}
+.vni-slogan-ocircumflex:before {
+	content: "\f4";
+}
+.vni-slogan-otilde:before {
+	content: "\f5";
+}
+.vni-slogan-odieresis:before {
+	content: "\f6";
+}
+.vni-slogan-divide:before {
+	content: "\f7";
+}
+.vni-slogan-oslash:before {
+	content: "\f8";
+}
+.vni-slogan-ugrave:before {
+	content: "\f9";
+}
+.vni-slogan-uacute:before {
+	content: "\fa";
+}
+.vni-slogan-ucircumflex:before {
+	content: "\fb";
+}
+.vni-slogan-udieresis:before {
+	content: "\fc";
+}
+.vni-slogan-yacute:before {
+	content: "\fd";
+}
+.vni-slogan-thorn:before {
+	content: "\fe";
+}
+.vni-slogan-ydieresis:before {
+	content: "\ff";
+}

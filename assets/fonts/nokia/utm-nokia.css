@@ -1,0 +1,655 @@
+@font-face {
+	font-family: "Nokia";
+	src: url("utm-nokia.eot");
+	src: url("utm-nokia.eot#iefix") format("embedded-opentype"),
+	url("utm-nokia.woff") format("woff"),
+	url("utm-nokia.ttf") format("truetype"),
+	url("utm-nokia.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="nokia-"]:before, [class*=" nokia-"]:before,
+[class^="nokia-"]:after, [class*=" nokia-"]:after {   
+	font-family: Nokia;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.nokia-exclam:before {
+	content: "\21";
+}
+.nokia-percent:before {
+	content: "\25";
+}
+.nokia-ampersand:before {
+	content: "\26";
+}
+.nokia-comma:before {
+	content: "\2c";
+}
+.nokia-hyphen:before {
+	content: "\2d";
+}
+.nokia-hyphen:before {
+	content: "\2010";
+}
+.nokia-period:before {
+	content: "\2e";
+}
+.nokia-slash:before {
+	content: "\2f";
+}
+.nokia-zero:before {
+	content: "\30";
+}
+.nokia-one:before {
+	content: "\31";
+}
+.nokia-two:before {
+	content: "\32";
+}
+.nokia-three:before {
+	content: "\33";
+}
+.nokia-four:before {
+	content: "\34";
+}
+.nokia-five:before {
+	content: "\35";
+}
+.nokia-six:before {
+	content: "\36";
+}
+.nokia-seven:before {
+	content: "\37";
+}
+.nokia-eight:before {
+	content: "\38";
+}
+.nokia-nine:before {
+	content: "\39";
+}
+.nokia-question:before {
+	content: "\3f";
+}
+.nokia-A:before {
+	content: "\41";
+}
+.nokia-B:before {
+	content: "\42";
+}
+.nokia-C:before {
+	content: "\43";
+}
+.nokia-D:before {
+	content: "\44";
+}
+.nokia-E:before {
+	content: "\45";
+}
+.nokia-F:before {
+	content: "\46";
+}
+.nokia-G:before {
+	content: "\47";
+}
+.nokia-H:before {
+	content: "\48";
+}
+.nokia-I:before {
+	content: "\49";
+}
+.nokia-J:before {
+	content: "\4a";
+}
+.nokia-K:before {
+	content: "\4b";
+}
+.nokia-L:before {
+	content: "\4c";
+}
+.nokia-M:before {
+	content: "\4d";
+}
+.nokia-N:before {
+	content: "\4e";
+}
+.nokia-O:before {
+	content: "\4f";
+}
+.nokia-P:before {
+	content: "\50";
+}
+.nokia-Q:before {
+	content: "\51";
+}
+.nokia-R:before {
+	content: "\52";
+}
+.nokia-S:before {
+	content: "\53";
+}
+.nokia-T:before {
+	content: "\54";
+}
+.nokia-U:before {
+	content: "\55";
+}
+.nokia-V:before {
+	content: "\56";
+}
+.nokia-W:before {
+	content: "\57";
+}
+.nokia-X:before {
+	content: "\58";
+}
+.nokia-Y:before {
+	content: "\59";
+}
+.nokia-Z:before {
+	content: "\5a";
+}
+.nokia-a:before {
+	content: "\61";
+}
+.nokia-b:before {
+	content: "\62";
+}
+.nokia-c:before {
+	content: "\63";
+}
+.nokia-d:before {
+	content: "\64";
+}
+.nokia-e:before {
+	content: "\65";
+}
+.nokia-f:before {
+	content: "\66";
+}
+.nokia-g:before {
+	content: "\67";
+}
+.nokia-h:before {
+	content: "\68";
+}
+.nokia-i:before {
+	content: "\69";
+}
+.nokia-j:before {
+	content: "\6a";
+}
+.nokia-k:before {
+	content: "\6b";
+}
+.nokia-l:before {
+	content: "\6c";
+}
+.nokia-m:before {
+	content: "\6d";
+}
+.nokia-n:before {
+	content: "\6e";
+}
+.nokia-o:before {
+	content: "\6f";
+}
+.nokia-p:before {
+	content: "\70";
+}
+.nokia-q:before {
+	content: "\71";
+}
+.nokia-r:before {
+	content: "\72";
+}
+.nokia-s:before {
+	content: "\73";
+}
+.nokia-t:before {
+	content: "\74";
+}
+.nokia-u:before {
+	content: "\75";
+}
+.nokia-v:before {
+	content: "\76";
+}
+.nokia-w:before {
+	content: "\77";
+}
+.nokia-x:before {
+	content: "\78";
+}
+.nokia-y:before {
+	content: "\79";
+}
+.nokia-z:before {
+	content: "\7a";
+}
+.nokia-copyright:before {
+	content: "\a9";
+}
+.nokia-registered:before {
+	content: "\ae";
+}
+.nokia-paragraph:before {
+	content: "\b6";
+}
+.nokia-Agrave:before {
+	content: "\c0";
+}
+.nokia-Aacute:before {
+	content: "\c1";
+}
+.nokia-uni1EA2:before {
+	content: "\1ea2";
+}
+.nokia-Atilde:before {
+	content: "\c3";
+}
+.nokia-uni1EA0:before {
+	content: "\1ea0";
+}
+.nokia-Acircumflex:before {
+	content: "\c2";
+}
+.nokia-uni1EA6:before {
+	content: "\1ea6";
+}
+.nokia-uni1EA4:before {
+	content: "\1ea4";
+}
+.nokia-uni1EA8:before {
+	content: "\1ea8";
+}
+.nokia-uni1EAA:before {
+	content: "\1eaa";
+}
+.nokia-uni1EAC:before {
+	content: "\1eac";
+}
+.nokia-Abreve:before {
+	content: "\102";
+}
+.nokia-uni1EB0:before {
+	content: "\1eb0";
+}
+.nokia-uni1EAE:before {
+	content: "\1eae";
+}
+.nokia-uni1EB2:before {
+	content: "\1eb2";
+}
+.nokia-uni1EB4:before {
+	content: "\1eb4";
+}
+.nokia-uni1EB6:before {
+	content: "\1eb6";
+}
+.nokia-Egrave:before {
+	content: "\c8";
+}
+.nokia-Eacute:before {
+	content: "\c9";
+}
+.nokia-uni1EBA:before {
+	content: "\1eba";
+}
+.nokia-uni1EBC:before {
+	content: "\1ebc";
+}
+.nokia-uni1EB8:before {
+	content: "\1eb8";
+}
+.nokia-Ecircumflex:before {
+	content: "\ca";
+}
+.nokia-uni1EC0:before {
+	content: "\1ec0";
+}
+.nokia-uni1EBE:before {
+	content: "\1ebe";
+}
+.nokia-uni1EC2:before {
+	content: "\1ec2";
+}
+.nokia-uni1EC4:before {
+	content: "\1ec4";
+}
+.nokia-uni1EC6:before {
+	content: "\1ec6";
+}
+.nokia-Igrave:before {
+	content: "\cc";
+}
+.nokia-Iacute:before {
+	content: "\cd";
+}
+.nokia-uni1EC8:before {
+	content: "\1ec8";
+}
+.nokia-Itilde:before {
+	content: "\128";
+}
+.nokia-uni1ECA:before {
+	content: "\1eca";
+}
+.nokia-Ograve:before {
+	content: "\d2";
+}
+.nokia-Oacute:before {
+	content: "\d3";
+}
+.nokia-uni1ECE:before {
+	content: "\1ece";
+}
+.nokia-Otilde:before {
+	content: "\d5";
+}
+.nokia-uni1ECC:before {
+	content: "\1ecc";
+}
+.nokia-Ocircumflex:before {
+	content: "\d4";
+}
+.nokia-uni1ED2:before {
+	content: "\1ed2";
+}
+.nokia-uni1ED0:before {
+	content: "\1ed0";
+}
+.nokia-uni1ED4:before {
+	content: "\1ed4";
+}
+.nokia-uni1ED6:before {
+	content: "\1ed6";
+}
+.nokia-uni1ED8:before {
+	content: "\1ed8";
+}
+.nokia-Ugrave:before {
+	content: "\d9";
+}
+.nokia-Uacute:before {
+	content: "\da";
+}
+.nokia-uni1EE6:before {
+	content: "\1ee6";
+}
+.nokia-Utilde:before {
+	content: "\168";
+}
+.nokia-uni1EE4:before {
+	content: "\1ee4";
+}
+.nokia-Uhorn:before {
+	content: "\1af";
+}
+.nokia-uni1EEA:before {
+	content: "\1eea";
+}
+.nokia-uni1EE8:before {
+	content: "\1ee8";
+}
+.nokia-uni1EEC:before {
+	content: "\1eec";
+}
+.nokia-uni1EEE:before {
+	content: "\1eee";
+}
+.nokia-uni1EF0:before {
+	content: "\1ef0";
+}
+.nokia-Ohorn:before {
+	content: "\1a0";
+}
+.nokia-uni1EDC:before {
+	content: "\1edc";
+}
+.nokia-uni1EDA:before {
+	content: "\1eda";
+}
+.nokia-uni1EDE:before {
+	content: "\1ede";
+}
+.nokia-uni1EE0:before {
+	content: "\1ee0";
+}
+.nokia-uni1EE2:before {
+	content: "\1ee2";
+}
+.nokia-Ygrave:before {
+	content: "\1ef2";
+}
+.nokia-Yacute:before {
+	content: "\dd";
+}
+.nokia-uni1EF6:before {
+	content: "\1ef6";
+}
+.nokia-uni1EF8:before {
+	content: "\1ef8";
+}
+.nokia-uni1EF4:before {
+	content: "\1ef4";
+}
+.nokia-agrave:before {
+	content: "\e0";
+}
+.nokia-aacute:before {
+	content: "\e1";
+}
+.nokia-uni1EA3:before {
+	content: "\1ea3";
+}
+.nokia-atilde:before {
+	content: "\e3";
+}
+.nokia-uni1EA1:before {
+	content: "\1ea1";
+}
+.nokia-acircumflex:before {
+	content: "\e2";
+}
+.nokia-uni1EA7:before {
+	content: "\1ea7";
+}
+.nokia-uni1EA5:before {
+	content: "\1ea5";
+}
+.nokia-uni1EA9:before {
+	content: "\1ea9";
+}
+.nokia-uni1EAB:before {
+	content: "\1eab";
+}
+.nokia-uni1EAD:before {
+	content: "\1ead";
+}
+.nokia-abreve:before {
+	content: "\103";
+}
+.nokia-uni1EB1:before {
+	content: "\1eb1";
+}
+.nokia-uni1EAF:before {
+	content: "\1eaf";
+}
+.nokia-uni1EB3:before {
+	content: "\1eb3";
+}
+.nokia-uni1EB5:before {
+	content: "\1eb5";
+}
+.nokia-uni1EB7:before {
+	content: "\1eb7";
+}
+.nokia-egrave:before {
+	content: "\e8";
+}
+.nokia-eacute:before {
+	content: "\e9";
+}
+.nokia-uni1EBB:before {
+	content: "\1ebb";
+}
+.nokia-uni1EBD:before {
+	content: "\1ebd";
+}
+.nokia-uni1EB9:before {
+	content: "\1eb9";
+}
+.nokia-ecircumflex:before {
+	content: "\ea";
+}
+.nokia-uni1EC1:before {
+	content: "\1ec1";
+}
+.nokia-uni1EBF:before {
+	content: "\1ebf";
+}
+.nokia-uni1EC3:before {
+	content: "\1ec3";
+}
+.nokia-uni1EC5:before {
+	content: "\1ec5";
+}
+.nokia-uni1EC7:before {
+	content: "\1ec7";
+}
+.nokia-igrave:before {
+	content: "\ec";
+}
+.nokia-iacute:before {
+	content: "\ed";
+}
+.nokia-uni1EC9:before {
+	content: "\1ec9";
+}
+.nokia-itilde:before {
+	content: "\129";
+}
+.nokia-uni1ECB:before {
+	content: "\1ecb";
+}
+.nokia-ograve:before {
+	content: "\f2";
+}
+.nokia-oacute:before {
+	content: "\f3";
+}
+.nokia-uni1ECF:before {
+	content: "\1ecf";
+}
+.nokia-otilde:before {
+	content: "\f5";
+}
+.nokia-uni1ECD:before {
+	content: "\1ecd";
+}
+.nokia-ocircumflex:before {
+	content: "\f4";
+}
+.nokia-uni1ED3:before {
+	content: "\1ed3";
+}
+.nokia-uni1ED1:before {
+	content: "\1ed1";
+}
+.nokia-uni1ED5:before {
+	content: "\1ed5";
+}
+.nokia-uni1ED7:before {
+	content: "\1ed7";
+}
+.nokia-uni1ED9:before {
+	content: "\1ed9";
+}
+.nokia-glyph216:before {
+	content: "\f9";
+}
+.nokia-glyph217:before {
+	content: "\fa";
+}
+.nokia-uni1EE7:before {
+	content: "\1ee7";
+}
+.nokia-utilde:before {
+	content: "\169";
+}
+.nokia-uni1EE5:before {
+	content: "\1ee5";
+}
+.nokia-uhorn:before {
+	content: "\1b0";
+}
+.nokia-uni1EEB:before {
+	content: "\1eeb";
+}
+.nokia-uni1EE9:before {
+	content: "\1ee9";
+}
+.nokia-uni1EED:before {
+	content: "\1eed";
+}
+.nokia-uni1EEF:before {
+	content: "\1eef";
+}
+.nokia-uni1EF1:before {
+	content: "\1ef1";
+}
+.nokia-ohorn:before {
+	content: "\1a1";
+}
+.nokia-uni1EDD:before {
+	content: "\1edd";
+}
+.nokia-uni1EDB:before {
+	content: "\1edb";
+}
+.nokia-uni1EDF:before {
+	content: "\1edf";
+}
+.nokia-uni1EE1:before {
+	content: "\1ee1";
+}
+.nokia-uni1EE3:before {
+	content: "\1ee3";
+}
+.nokia-ygrave:before {
+	content: "\1ef3";
+}
+.nokia-glyph234:before {
+	content: "\fd";
+}
+.nokia-uni1EF7:before {
+	content: "\1ef7";
+}
+.nokia-uni1EF9:before {
+	content: "\1ef9";
+}
+.nokia-uni1EF5:before {
+	content: "\1ef5";
+}
+.nokia-Dslash:before {
+	content: "\110";
+}
+.nokia-dcroat:before {
+	content: "\111";
+}
+.nokia-quoteleft:before {
+	content: "\2018";
+}
+.nokia-quoteright:before {
+	content: "\2019";
+}
+.nokia-quotedblleft:before {
+	content: "\201c";
+}
+.nokia-quotedblright:before {
+	content: "\201d";
+}
+.nokia-ellipsis:before {
+	content: "\2026";
+}

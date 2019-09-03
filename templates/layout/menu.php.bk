@@ -1,0 +1,78 @@
+
+<nav class="hidden-xs hidden-sm">
+<div>
+	<ul id="main-nav">
+	
+		
+			<li class=""><a href="" title="<?=_home?>"><?=_home?></span></a></li>
+			<li class="<?php if($com=='gioi-thieu'){ echo 'active';}?>"><a href="gioi-thieu.html" title="<?=_about?>"><?=_about?></span></a></li>
+					
+		
+			
+		<?php 
+			$d->query("select id,ten_$lang,tenkhongdau from #_product_danhmuc where hienthi = 1 and type='product' order by stt desc");
+						if($d->num_rows()){
+							
+						
+							$xp = $d->result_array();
+								foreach($xp as $k=>$v){
+									echo '<li class="f static"><a href="san-pham/'.$v['tenkhongdau'].'/" title="'.$v['ten_'.$lang].'">'.$v['ten_'.$lang].'</a>';
+										$d->query("select id,ten_$lang,tenkhongdau from #_product_list where hienthi = 1 and type='product'  and id_danhmuc = ".$v['id']." order by stt desc");
+										if($d->num_rows()){
+											?>
+											<div class="sub-menu">
+											
+											
+											<?php 
+											echo '<ul>';
+												foreach($d->result_array() as $k2=>$v2){
+													echo '<li class="t"><a href="san-pham/'.$v['tenkhongdau'].'/'.$v2['tenkhongdau'].'/" title="'.$v2['ten_'.$lang].'">'.$v2['ten_'.$lang].'</a>';
+														$d->query("select id,ten_$lang,tenkhongdau from #_product_cat where hienthi = 1 and type='product'  and id_list = ".$v2['id']." order by stt desc");
+														if($d->num_rows()){
+															echo '<ul>';
+																foreach($d->result_array() as $k3=>$v3){
+																	echo '<li class="t"><a href="san-pham/'.$v['tenkhongdau'].'/'.$v2['tenkhongdau'].'/'.$v3['tenkhongdau'].'/" title="'.$v3['ten_'.$lang].'">'.$v3['ten_'.$lang].'</a></li>';
+																}
+															
+															echo '</ul>';
+														}
+													
+													
+													echo '</li>';
+												}
+											echo '</ul>';
+											?>
+											</div>
+											
+											
+											<?php 
+										}
+									
+									echo '</li>';
+								}
+						
+						}	
+							
+							?>
+			
+		
+			
+
+	<li  class=" <?php if($com=='khuyen-mai'){ echo 'active';}?>">
+			<a href="khuyen-mai.html" title="<?=_promotion?>"><span><?=_promotion?></span></a>		
+						
+	</li>
+	
+	<li class=" <?php if($com=='tin-tuc'){ echo 'active';}?>"><a href="tin-tuc.html" title="<?=_news?>"><span><?=_news?></span></a></li>
+
+			<li  class=" <?php if($com=='lien-he'){ echo 'active';}?>"	><a href="lien-he.html" title="<?=_contact?>"><span><?=_contact?></span></a></li>
+			
+
+	</ul>
+	<div class="clearfix"></div>
+</div>
+	
+	
+</nav>
+
+	

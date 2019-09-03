@@ -1,0 +1,89 @@
+#slider-wrapper ul{
+	padding:0;margin:0;list-style:none
+}
+#slider-wrapper{
+    margin: 5px 0;
+    /* margin-top: 1px; */
+	
+    background: #F7E488;
+    position: relative;
+    padding-top: 15px;
+}
+#slider-wrapper #slider{
+    float: left;
+    width: 870px;
+    margin-right: 0px;    
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);  -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.2);  box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+}
+#slider-wrapper #qc{
+    float: left;
+    width: 295px;    
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);  -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.2);  box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+    margin-left: 5px;
+}
+#slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a{
+	background: #0F1015;
+	width: 15px;
+	height: 15px;
+	border: 1px solid rgba(161, 161, 161, 0);
+	border-radius: 50%;
+}
+#slider-wrapper  .bx-wrapper .bx-pager.bx-default-pager a:hover,#slider-wrapper  .bx-wrapper .bx-pager.bx-default-pager a.active{
+    /* border: 3px solid #fff; */
+
+    width: 15px;
+    background-color: red;
+    height: 15px;
+}
+#slider-wrapper #social-air{
+    position: absolute;
+    top: 10%;
+    width: 50px;
+    left: 20px;
+}
+#slider-wrapper #social-air a img{
+	width:32px;
+}
+#slider-wrapper #social-air a{
+    margin-bottom: 10px;
+    float: left;
+    opacity: 0.5;
+	 -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#slider-wrapper #social-air a:hover{opacity:0.9}
+
+
+#slider-wrapper #qc{
+    background-color: #C4A056;
+}
+#slider-wrapper #qc .item .wrap-item{
+    padding: 5px;
+    background-color: #fff;
+}
+#slider-wrapper #qc .item{
+    margin: 7px 5px;
+    width: 260px;
+    margin-left: 19px;
+    padding: 3px;
+    background: url(../img/stroke.png);
+}
+#slider-wrapper #qc .item .photo{
+    margin-left: 5px;
+    float: left;
+}
+#slider-wrapper #qc .item .name-desc{
+    float: left;
+    width: 154px;
+    margin-left: 5px;
+    font-family: 'Myriad Pro Regular';
+}
+#slider-wrapper #qc .item .name-desc a{}
+#slider-wrapper #qc .item .name-desc a{
+    font-family: 'Myriad Pro Regular';
+    text-transform: uppercase;
+    color: #666;
+    font-size: 14px;
+}

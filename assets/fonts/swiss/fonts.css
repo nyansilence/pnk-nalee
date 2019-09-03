@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'utm_swissblack';
+    src: url('UTMSwiss721BlackCondensed.eot');
+    src: url('UTMSwiss721BlackCondensed.eot?#iefix') format('embedded-opentype'),
+         url('UTMSwiss721BlackCondensed.woff') format('woff'),
+         url('UTMSwiss721BlackCondensed.ttf') format('truetype'),
+         url('UTMSwiss721BlackCondensed.svg#utm_swissblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

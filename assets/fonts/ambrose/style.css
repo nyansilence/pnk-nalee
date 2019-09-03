@@ -1,0 +1,12 @@
+@font-face {
+					font-family: "UTMAmbrose";
+					src: url("./UTMAmbrose.eot");
+					src: url("./UTMAmbrose.eot?#iefix") format("embedded-opentype"),
+					url("./UTMAmbrose.woff") format("woff"),
+					url("./UTMAmbrose.ttf") format("truetype"),
+					url("./UTMAmbrose.svg#UTMAmbrose") format("svg");
+					font-weight: normal;
+					font-style: normal;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+				}

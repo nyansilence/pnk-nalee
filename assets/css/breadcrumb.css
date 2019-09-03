@@ -1,0 +1,106 @@
+
+
+
+
+
+#my-breadcrumbs{
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+	    margin-top: 20px;
+}
+
+
+#my-breadcrumbs ul li {
+	list-style:none;
+	display: inline-block;
+}
+
+#my-breadcrumbs ul{
+    padding:0;
+    margin:0;
+}
+
+
+#my-breadcrumbs ul li a {
+	display: block;
+	float: left;
+	background: #4060A5;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	position: relative;
+	margin: 0 17px 0 0;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+#my-breadcrumbs ul li a:hover{
+  background: #5172B8;
+	     
+	
+	
+}
+
+
+
+
+
+
+
+
+#my-breadcrumbs ul li a:after {
+content: "";  
+	border-top: 15px solid transparent;
+border-bottom: 15px solid transparent;
+border-left: 15px solid #4060A5;
+position: absolute; right: -15px; top: 0;	
+}
+
+
+
+
+#my-breadcrumbs ul li a:before {
+ content: "";
+ position: absolute;
+ margin-top: -5px;
+ border-width: 15px 0 15px 15px;
+ border-style: solid;
+ border-color: #4060A5 #4060A5 #4060A5 transparent;
+ left: -15px;
+}
+
+/* Hover Effects */
+#my-breadcrumbs ul li a:hover::before {
+  border-color: #5172B8 #5172B8 #5172B8 transparent;
+	     
+	
+	
+}
+/* Hover Effects */
+#my-breadcrumbs ul li a:hover::after{
+  
+border-top: 15px solid transparent;
+  
+border-bottom: 15px solid transparent;
+  
+border-left: 15px solid #5172B8;
+}
+
+
+
+/* Hide the Before Pseudo Element */
+#my-breadcrumbs ul li:first-child a:before {
+	display: none; 
+}
+
+
+/* Add Border Radius */
+#my-breadcrumbs ul li:first-child a{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 1px;
+}

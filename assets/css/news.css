@@ -1,0 +1,180 @@
+@import "less/news.less";/* news page */
+#list-news{margin-bottom:70px;}
+#list-news .item{    margin-bottom: 30px;}
+
+#list-news .item .img{}
+#list-news .item .img img{    width: 100%;}
+#list-news .item .descnews{}
+#list-news .item .descnews h2{    margin: 8px 0;    font-size: 16px;    font-weight: 500;    text-transform: uppercase;line-height: 21px;margin-bottom: 0px;}
+#list-news .item .descnews h2 a{    color: #008fd5;    text-decoration: none;    transition: all 0.5s ease;}
+#list-news .item .descnews h2:hover a{    color: #FBB017;}
+#list-news .item .descnews .date{    font-size: 13px;    font-style: italic;    color: #41ADC9;    margin-bottom: 10px;}
+#list-news .item .descnews .inner-desc{}.box_containerlienhe{padding-left:10px; color: #000;background: #fff;}
+.box_containerlienhe .info-desc{    padding: 25px 0;    text-align: center;}
+.box_containerlienhe .info-desc .name{    text-transform: uppercase;    color: #363636;    font-size: 16px;    margin-bottom: 10px;}
+.box_containerlienhe .info-desc .info{        font-size: 16px;    width: 100%;    max-width: 700px;    margin: auto;}
+.box_containerlienhe h2{	/* margin:0; */}
+.box_containerlienhe .header {    margin-bottom: 20px;}
+.box_containerlienhe .header .name h3{    margin: 0;    text-transform: uppercase;    font-size: 16px;    font-weight: bold;}
+.box_containerlienhe .left-position-link{    position: absolute;    bottom: 55px;    left: 42%;}
+.box_containerlienhe .left-position-link a{	 -moz-transition: all 0.5s ease;	 -o-transition: all 0.5s ease;	 -ms-transition: all 0.5s ease;	 transition: all 0.5s ease;	 background-color: #FFFFFF;	 padding: 6px 15px;	 color: #333 !Important;	 border: 1px solid #333;}
+.box_containerlienhe .left-position-link a:hover,
+.box_containerlienhe .left-position-link a:active{background: #444B59;text-decoration:none;border: 1px solid #fff;}
+.box_containerlienhe .header .name h3 a{    color: #394752;}
+.box_containerlienhe .header .name h3 a:hover{}
+.box_containerlienhe .header .name .tool{/* margin-top: 25px; */color: #9BA4AB;position: absolute;font-size: 13px;bottom: 5px;}
+.box_containerlienhe .header .name{    float: left;    height: 62px;    margin-left: 5px;    position: relative;    min-width: 200px;    padding: 5px 0;    width: 80%;}
+.box_containerlienhe .date{    /* float: left; */    /* width: 62px; */    /* border-radius: 50%; */    /* text-align: center; */    /* background-color: #394752; */    /* color: #fff; */    font-size: 12px;    font-style: italic;    /* margin-right: 10px; */    /* padding: 14px 0; */    /* position: absolute; */    /* left: 0px; */}
+.box_containerlienhe  .fix-title{	/* margin-left:106px; */}
+.box_containerlienhe .box_new{	padding:5px 15px;	float:left;	border-bottom:1px dotted #A0A0A4;	}
+.box_containerlienhe .box_new:last{	border-bottom:none;	}
+.box_containerlienhe .box_new h1 a{	color:#000000;	font-size:17px;	text-decoration:none;  margin:5px;	}
+.box_containerlienhe .box_new h1 a:hover{	color:#F00 !important;}
+.box_containerlienhe .othernews h1{	color:#d31158;}
+.box_containerlienhe .othernews ul{	list-style:none;	margin-top:10px;}
+.box_containerlienhe .othernews ul li{  padding:3px 10px 3px 40px;}
+.box_containerlienhe .othernews ul li a{	color:#d31158;	background;url(../images/bg_tieude.png)no-repeat left 0;}
+.box_containerlienhe .othernews ul li a:hover{	color:#D40000;}
+.wrap-box-newsimg{max-width:100%}
+.wrap-box-news{color:#333;margin: 10px 0;}
+.wrap-box-news .news-item .thumb img{	margin:auto;}
+.wrap-box-news .news-item .thumb{	margin-bottom:10px;		text-align: center;}	
+.wrap-box-news .news-item{	margin-bottom:10px;		padding-bottom: 10px;	position: relative;	margin-bottom: 20px;	/* padding-left: 80px; */}
+.wrap-box-news .news-item a.title{	margin:0;	font-size:16px;	line-height:21px;	margin-bottom:5px;	font-weight:normal;		}
+.wrap-box-news .news-item  a{	color:#000;}
+.wrap-box-news .news-item  a:hover{	text-decoration:none;	color: #000 !important;}
+.news-content img{max-width:100%}
+.news-content .download-wrapper{    padding:7px 10px;    border: 1px solid #ccc;    background: #F7F7F7;	margin:5px 0;}
+.news-content .download-wrapper a:hover{text-decoration:none;color:#00AD00}
+.news-content .download-wrapper a{    font-size: 17px;}
+.news-content .download-wrapper a i{}
+.news-content .content *{	    }
+.news-content .content{	max-width:100%;	height:auto;	}
+.news-content{    border-radius: 0;    padding: 15px;   background: #fff;    /* border: 1px solid rgba(204, 204, 204, 0.75); */}
+.news-content .header h2,.news-content .header h1{	font-size: 20px;	font-weight:bold;	line-height: 24px;	margin:0;	margin-bottom: 7px;}.news-content .header .date{	font-style:italic;	font-size:13px;}.news-content .description{		font-weight:bold;	margin-bottom:10px;	font-size: 15px;	text-align: justify;}.news-content .other-news  ul{	list-style:none;	margin:0;	padding-left: 0;}i.dot{    background-color: #444B59;    width: 5px;    height: 5px;    display: inline-block;    border-radius: 50%;    margin-bottom: 2px;}i.line{    background-color: #444B59;          width: 7px;          height: 2px;      display: inline-block;      border-radius: 50%;          margin-bottom: 4px;}#right-nav-navigation{    top: 5px;}#right-nav-navigation ul{    margin: 0;    padding: 0;    list-style: none;}#right-nav-navigation ul li{    margin: 3px 0;    font-size: 16px;}#right-nav-navigation ul ul{margin-left: 10px;}#right-nav-navigation ul li a{    color: #444B59;}#right-nav-navigation ul li a:hover{text-decoration:none;color:#31353E}#right-nav-navigation section{border-bottom:1px solid #ccc;margin-bottom:20px;padding-bottom: 20px;}#right-nav-navigation .content.news{}#right-nav-navigation .content.news ul{}#right-nav-navigation .content.news ul li{    margin: 15px 0;}#right-nav-navigation .content.news ul li .date{font-size:12px;font-style: italic;}#right-nav-navigation .content.news ul li .name{}#right-nav-navigation .content.news ul li .name h3{    margin: 0;    font-size: 15px;}#right-nav-navigation .content.news ul li .name h3 a{    color: #444B59;    font-weight: bold;}#right-nav-navigation .content.news ul li .name h3 a:hover{color:#31353E}#right-nav-navigation .content.news ul li .desc{text-align:justify;font-size: 90%;}
+
+
+.item{ 
+	margin-bottom: 20px;
+}
+
+.item.item-1{}
+.item.item-1.item-1a{
+	padding-top: 5%;
+}
+.bigdesc{
+	font-weight: bold;
+	font-size: 24px;
+	position:absolute;
+	padding: 4px 0px;
+    background: none repeat scroll 0 0 rgba(0,0,0,0.5);
+    box-shadow: 10px 0 0 rgba(0,0,0,0.5), -10px 0 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 0 0 rgba(0,0,0,0.5), -10px 0 0 rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 0 0 rgba(0,0,0,0.5), -10px 0 0 rgba(0,0,0,0.5);
+    -o-box-shadow: 10px 0 0 rgba(0,0,0,0.5), -10px 0 0 rgba(0,0,0,0.5);
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+.bigdesc.desc-1{
+	width:100%;
+	
+}
+.bigdesc.desc-2{
+	top:50%;
+	right: 2%;
+
+}
+.bigdesc.desc-3{
+	top:40%;
+}
+.bigdesc.desc-4{
+	top:10%;
+}
+.bigdesc.desc-5{
+	right:0%;
+}
+.bigdesc.desc-6{
+	top:50%;
+}
+.desc{
+	padding: 4px 0px;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.desc h2{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 22px;
+}
+.desc h2 a{}
+.desc.desc-1a{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-1b{
+	top: 90%;
+	right:3%;
+}
+.desc.desc-2a{
+	top: 30%;
+	right:5%;
+}
+.desc.desc-2b{
+	top: 60%;
+	right:5%;
+}
+.desc.desc-2c{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-2d{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-3{
+	top: 90%;
+	right:9%;
+}
+
+.desc.desc-4a{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-4b{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-5a{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-5b{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-6a{
+	top: 40%;
+	right:5%;
+}
+.desc.desc-6b{
+	top: 90%;
+	right:5%;
+}
+.desc.desc-6c{
+	top: 90%;
+	right:5%;
+}
+
+
+.item.item-4{}
+.item.item-4.item-4b{
+	padding-top: 5%;
+	
+}
